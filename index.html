@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" rev="stylesheet" type="text/css" href="styles.css"  />
+<title>Checkout_form</title>
+</head>
+<body >
+	<div id="main-div">
+		<form  id="test">
+			<div id="checkout_form">
+				<h2>Checkout form</h2>
+			</div>
+			<hr>
+				<div id="main_form">
+						<input id ="str11" placeholder="First name"/><!-placeholder для пропадания надписи->
+						<input id ="str12" placeholder="Last_name" />
+						<input  id ="str21" placeholder="E-mail" />
+						<input  id ="str22" placeholder="Phone" />
+				</div>
+			</hr>
+			<hr>
+				<div id="info">
+					<select id="str31" name="Country">
+						<option   placeholder="Country">Country</option>
+					</select>
+					<input  id ="str32" placeholder="City" />
+					<input  id ="str33" placeholder="Post code" />
+					<input  id ="str41" placeholder="Address"/>
+					<textarea id="str51" placeholder="Additional info"></textarea>
+				</div>
+			</hr>
+			<hr>
+				<div id="card">
+					<span>
+						<input id="str61" type="radio" name="C" value="Visa" > 
+							<label  for="Visa" >Visa</label>
+						<input id="str62" type="radio" name="C" value="MasterCard" >
+							<label  for="MasterCard" >MasterCard</label>
+						<input id="str63" type="radio" name="C" value="PayPal" >
+							<label  for="PayPal">PayPal</label>
+					</span>
+					
+					<input  id ="str71" placeholder="Name on card"/>			
+					<input  id ="str81" placeholder="Card number"/>
+					<input  id ="str82" placeholder="CVV2"/>
+					<label  id ="date" for="Expiration_date" >Expiration date</label>
+					<select id ="str91">
+						<option value="Month">Month</option>
+					</select>
+					<input  id ="str92" placeholder="Year" />
+				</div>
+			</hr>
+			<hr>
+				<div class="Continue">
+						<input id="button" type="submit" value="Continue"  /> <!--type="submit" для button-->
+				</div>
+			</hr>
+		</form>
+	</div>
+</body>
+</html>

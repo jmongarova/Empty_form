@@ -1,0 +1,164 @@
+#main-div{ 												/*Вся форма*/
+	
+	background: linear-gradient(#bac5fb, #a89edb, #2a285a);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+*{        												/* Шрифты на форме*/
+	font-family: Verdana;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+
+h2 {
+	margin: 0px;
+	font: 140% serif;
+   }
+#test{
+	display: block;
+	margin-top: 2%; /* Отступ сверху всей формы*/
+    margin-left: 34%; /* Отступ слева всей формы*/
+    /*background-color: #ccc;  Цвет фона ???????????????????????????????????????????????????????????/*/
+	width: 33%; /* Размер всей формы*/
+   }
+#checkout_form{
+   background-color: #f0f0f8;
+   padding-top: 4%; /* Отступ сверху*/
+   padding-left: 5%;
+   padding-bottom: 4%; /* Отступ с*/
+   height: 10%;
+}
+#card, #info, #main_form{
+	margin: 0px;
+	background-color: #f9f8fe;
+	padding-top: 4%;
+	padding-left: 5%;
+}
+
+#str11, #str21, #str31, #str32, #str41, #str71, #str81, #str91{
+	margin-right: 4%; 
+	margin-bottom: 4%;
+}
+#str11, #str12, #str21, #str22
+{
+	position: relative;
+	height: 27px;/*  27px*/ 
+	width: 43%;/* 207pxpx*/
+}
+#str31, #str91{
+	height: 32px;/*33px*/
+	width: 36%; /*176px*/
+}
+#str32{
+	height: 27px;
+	width: 27%/*132px;*/
+}
+#str33, #str92{
+	height: 27px;
+	width: 18%;/*80px;*/
+}
+#str41{
+	height: 27px;
+	width: 92%;/*442px;*/
+}
+#str51{ 											/* добавление информации*/
+	margin-right: 4%; 
+	margin-bottom: 4%;
+	resize: none;
+	height: 56px; /* 56px*/
+	width: 92%; /* 442px*/
+}
+#str61, #str62, #str63{
+	margin: 0px;
+	
+}
+#str71{
+	margin-top: 2%;
+	height: 27px;
+	width: 92%;/*442px;*/
+}
+
+#str81{
+	height: 27px;
+	width: 76%;
+}
+#str82{
+	height: 27px;
+	width: 10%;
+}
+.Continue
+{
+	background-color: #f0f0f8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 0px solid #E7E8EC;
+}
+#button{ 								/* Кнопка */
+	margin-left: 75%;
+	border-style: none;
+	height: 32px;
+	width: 18%;	
+	background: #B95CC9;
+	color: #f0f0f8;
+	font-size: 9pt;
+}
+textarea{
+text-indent: 5px;	
+}
+input, select, label{  					/* Отступы  */
+	text-indent: 8px; 
+	font-size: 9pt;
+} 
+#date
+{
+margin-left: 0%;
+margin-right: 17%;
+font-size: 7pt;
+}
+
+hr{
+	margin: 0px;
+	background-color: #e4e5e9;
+}
+
+input[type='radio'] {									/* переключатель */
+  position: relative;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #e4e5e9; /*цвет поменять*/
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #B95CC9;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
+
